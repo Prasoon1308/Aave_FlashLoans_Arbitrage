@@ -16,7 +16,7 @@ interface IDex {
     function sellDAI() external;
 }
 
-contract FlashLoanArbitrage is FlashLoanSimpleReceiverBase {
+contract Arbitrage is FlashLoanSimpleReceiverBase {
     address payable owner;
 
     // Aave ERC20 Token addresses on Goerli network
