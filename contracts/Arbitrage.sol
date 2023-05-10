@@ -53,7 +53,6 @@ contract Arbitrage is FlashLoanSimpleReceiverBase {
     ) external override returns (bool) {
         //
         // This contract now has the funds requested.
-        // Your logic goes here.
         //
 
         // Arbirtage operation
